@@ -13,6 +13,8 @@ pnpm-lock.yaml
 # testing
 /coverage
 
+*.bat
+
 # next.js
 /.next/
 /out/
