@@ -12,6 +12,7 @@ View, predict, and strategize your success.
 > - `NEXT_PUBLIC_URL` is the [backend](https://github.com/rahuletto/goscraper) that you have to deploy it by yourself and link it
 > - `NEXT_PUBLIC_VALIDATION_KEY` should be an unique key that should match with the backend server.. This key is used to validate if the requests are authentic and from desired frontend
 > - `NEXT_PUBLIC_SERVICE_KEY` and `NEXT_PUBLIC_SUPABASE_URL` should be your supabase SERVICE key and ANON key.
+> - `NEXT_PUBLIC_SUPPORTED_UIDS` should be your SRM Mail ID without the @srmist.edu.in part and seperated by "," like "abxxxx, cdyyyy".
 >
 > Host it, get the url, use it and enjoy! 
 
@@ -21,6 +22,7 @@ NEXT_PUBLIC_URL=""
 NEXT_PUBLIC_VALIDATION_KEY=""
 NEXT_PUBLIC_SERVICE_KEY=""
 NEXT_PUBLIC_SUPABASE_URL=""
+NEXT_PUBLIC_SUPPORTED_UIDS=""
 ```
 
 > [!WARNING]
